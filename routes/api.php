@@ -21,6 +21,3 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('users', [UserController::class, 'index']);
 
-// Route::middleware('auth:api')->group(function () {
-//     Route::get('users', [UserController::class, 'index']);
-// });
